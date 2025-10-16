@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Anees Abro - Graphic Designer Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f5f6fa;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .profile-container {
+      max-width: 800px;
+      background: #fff;
+      margin: 40px auto;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 40px;
+    }
+    .profile-header {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      border-bottom: 1px solid #ececec;
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+    }
+    .profile-avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #c4c4c4;
+      border: 2px solid #2d98da;
+    }
+    .profile-title h1 {
+      margin: 0 0 8px 0;
+      font-size: 2.2rem;
+      color: #2d98da;
+    }
+    .profile-title p {
+      font-size: 1.1rem;
+      margin: 0;
+      color: #555;
+    }
+    .section {
+      margin-bottom: 32px;
+    }
+    .section-title {
+      font-size: 1.2rem;
+      color: #2d98da;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+    .skills, .languages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill, .lang {
+      background: #eaf0fb;
+      color: #2d98da;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 1rem;
+      margin-bottom: 4px;
+    }
+    .education-list, .projects-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .education-list li, .projects-list li {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .projects-list li span {
+      font-weight: 600;
+      color: #222;
+    }
+    .pricing-plans {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .pricing-plan {
+      flex: 1 1 280px;
+      background: #f7fbff;
+      padding: 24px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(45,152,218,0.09);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .plan-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #2d98da;
+      margin-bottom: 10px;
+    }
+    .plan-price {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #222;
+      margin-bottom: 10px;
+    }
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 14px;
+    }
+    .plan-features li {
+      margin-bottom: 6px;
+      font-size: 0.98rem;
+    }
+    .plan-btn {
+      background: #2d98da;
+      color: #fff;
+      padding: 9px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: auto;
+      transition: background 0.2s;
+    }
+    .plan-btn:hover {
+      background: #217dbb;
+    }
+    @media (max-width: 600px) {
+      .profile-container {
+        padding: 16px;
+      }
+      .profile-header {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+      }
+      .pricing-plans {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-header">
+      <img src="" alt="" class="profile-avatar" />
+      <div class="profile-title">
+        <h1>Anees Abro</h1>
+        <p>Creative Graphic Designer passionate about branding, UI/UX, and digital illustration. Turning ideas into visually compelling designs that drive results.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Skills</div>
+      <div class="skills">
+        <div class="skill">Branding</div>
+        <div class="skill">Logo Design</div>
+        <div class="skill">UI/UX Design</div>
+        <div class="skill">Digital Illustration</div>
+        <div class="skill">Adobe Photoshop</div>
+        <div class="skill">Adobe Illustrator</div>
+        <div class="skill">Figma</div>
+        <div class="skill">Social Media Graphics</div>
+        <div class="skill">Print Design</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Languages</div>
+      <div class="languages">
+        <div class="lang">English</div>
+        <div class="lang">Urdu</div>
+        <div class="lang">Sindhi</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Education</div>
+      <ul class="education-list">
+        <li>Bachelor of Fine Arts (BFA) - Sindh University, Jamshoro</li>
+        <li>Certified Graphic Designer - Arena Multimedia</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Projects</div>
+      <ul class="projects-list">
+        <li><span>Brand Identity for SindhTech:</span> Developed a complete brand identity for a local tech startup, including logo, guidelines, and marketing assets.</li>
+        <li><span>UI/UX for EduLearn App:</span> Designed intuitive interfaces for an e-learning mobile app, focusing on user engagement and accessibility.</li>
+        <li><span>Digital Illustration Series:</span> Created a collection of digital artworks for an online campaign promoting Sindhi culture.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Pricing Plans</div>
+      <div class="pricing-plans">
+        <div class="pricing-plan">
+          <div class="plan-title">Starter</div>
+          <div class="plan-price">$5.00</div>
+          <ul class="plan-features">
+            <li>Logo Design</li>
+            <li>2 Concepts & 2 Revisions</li>
+            <li>Social Media Kit</li>
+            <li>Delivery in 3 Days</li>
+          </ul>
+          <button class="plan-btn" href="aneeskhanabro@gmail.com">Choose Starter</button>
+        </div>
+        <div class="pricing-plan">
+          <div class="plan-title">Pro</div>
+          <div class="plan-price">$15.00</div>
+          <ul class="plan-features">
+            <li>Brand Identity Package</li>
+            <li>5 Concepts & Unlimited Revisions</li>
+            <li>Business Card & Stationery</li>
+            <li>Priority Support & Consultation</li>
+            <li>Delivery in 7 Days</li>
+          </ul>
+          <button class="plan-btn" href="aneeskhanabro@gmail.com">Choose Pro</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
